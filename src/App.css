@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navbar {
+  background-color: #14b8a6;
+  color: white;
+}
+.navbar > div {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.button {
+  background-color: white;
+  color: black;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+.text {
+  max-width: 200px;
+  overflow: hidden;
+}
